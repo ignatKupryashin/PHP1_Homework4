@@ -1,0 +1,44 @@
+body {
+    float: left;
+    margin: 0 auto;
+    min-width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: calibri light;
+}
+header {
+	background-color: white;
+	overflow: hidden;}
+
+
+h1.header{
+color: black;
+letter-spacing: 2em;
+}
+.gallery {
+	margin: 0 auto;
+	max-width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	overflow: hidden;
+	
+}
+
+.gallery img {
+	border: 5px solid #6E6E6E;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.gallery img:hover {
+	border: 5px solid #D6D6D6;
+}
+
+.upload_form {
+	margin: 0 auto;
+	width: 900px;
+}
